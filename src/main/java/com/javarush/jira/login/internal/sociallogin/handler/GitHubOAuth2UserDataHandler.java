@@ -17,6 +17,7 @@ public class GitHubOAuth2UserDataHandler implements OAuth2UserDataHandler {
 
     @Override
     public String getEmail(OAuth2UserData oAuth2UserData) {
-        return oAuth2UserData.getData("email");
+        String email = oAuth2UserData.getData("email");
+        return email != null ? email : "email@not.found"; //TODO: refactoring
     }
 }
