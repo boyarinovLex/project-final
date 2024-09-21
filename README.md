@@ -27,4 +27,8 @@
 - https://habr.com/ru/articles/259055/
 
 Список выполненных задач:
-...
+1. Onbording
+2. Удалил социальные сети yandex, vk
+3. Вынес чувствительную информацию в отдельный property файл
+4. Подключил тестконтейнеры
+6. Сделал рефакторинг метода com.javarush.jira.bugtracking.attachment.FileUtil#upload
